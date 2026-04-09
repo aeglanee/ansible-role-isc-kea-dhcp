@@ -12,9 +12,6 @@ kea_dhcp_config_dir: "/etc/kea"
 # Kea configuration file
 kea_dhcp_config_file: "{{ kea_dhcp_config_dir }}/kea-dhcp4.conf"
 
-# Kea log directory
-kea_dhcp_log_dir: "/var/log/kea"
-
 # Enable DHCPv4
 kea_dhcp4_enabled: true
 
